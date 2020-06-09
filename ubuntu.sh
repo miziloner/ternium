@@ -1,6 +1,6 @@
 apt-get update
 apt-get install python3.6
-apt install python3-pip
+apt-get install python3-pip
 pip install pandas==0.25.1
 pip install pyarrow==0.17.0
 pip install azure-storage-blob==2.1.0
