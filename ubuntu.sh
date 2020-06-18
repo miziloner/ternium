@@ -1,5 +1,6 @@
+set -e
+
 apt-get update
-apt-get install python3.6
 apt-get -y install python3-pip
 python3.6 -m pip install pandas==0.25.1
 python3.6 -m pip install pyarrow==0.17.0
